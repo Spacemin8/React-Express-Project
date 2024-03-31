@@ -1,0 +1,68 @@
+.dashboard-back {
+	position: relative;
+	width: 100%;
+	min-height: 1348px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: linear-gradient(181.71deg, rgba(246, 232, 234, 0.24) -5%, rgba(249, 240, 230, 0.24) 37.12%, rgba(244, 158, 109, 0.24) 143.7%);
+	background-image: url('../../image/Rectangle\ 5986.svg'), url('../../image/Group.svg');
+	background-size: cover;
+}
+
+.dashboard-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 1348PX;
+	width: 100%;
+	margin: 0;
+}
+
+.dashboard-back h1 {
+	font-family: Syne;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	position: absolute;
+	margin: 0px;
+	left: 0;
+	right: 0;
+	top: 140px;
+}
+
+.hr2 {
+	position: absolute;
+	top: 180px;
+	padding: 0px 30px;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(88.56deg, rgba(151, 45, 167, 0.78) -17.82%, rgba(235, 47, 131, 0.78) 26.14%, rgba(252, 152, 103, 0.78) 64.88%, rgba(255, 214, 46, 0.78) 98.35%);
+	display: none;
+
+}
+
+.hrv {
+	position: absolute;
+	top: 200px;
+	padding: 0px 30px;
+	height: 177px;
+	width: 100%;
+	border-radius: 24px;
+	background: linear-gradient(88.56deg, rgba(151, 45, 167, 0.78) -17.82%, rgba(235, 47, 131, 0.78) 26.14%, rgba(252, 152, 103, 0.78) 64.88%, rgba(255, 214, 46, 0.78) 98.35%);
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.hr2 {
+		display: block;
+	}
+
+	.hrv {
+		display: block;
+	}
+}

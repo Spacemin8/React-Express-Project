@@ -1,0 +1,136 @@
+/* The Modal (background) */
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 200px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	// border: 1px solid #888;
+	width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {
+		top: -300px;
+		opacity: 0
+	}
+
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+
+@keyframes animatetop {
+	from {
+		top: -300px;
+		opacity: 0
+	}
+
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+
+/* The Close Button */
+.btn-close {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 0px 20px;
+	border-color: blue;
+	border-radius: 10px;
+	background-image: url('../../image/close.png');
+	background-size: cover;
+	cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	background-color: rgba(36, 107, 199, 0.78);
+	color: white;
+
+	h4 {
+		margin: auto;
+	}
+}
+
+.modal-title {
+	padding: 0px 40px;
+}
+
+.modal-body {
+	height: 300px;
+	// display: flex;
+	// align-items: center;
+	// justify-content: center;
+	text-align: center;
+}
+
+.modal-footer {
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	// background-color: rgba(38, 158, 54, 0.78);
+}
+
+.btn-mod {
+	margin: 0px 30px;
+	width: 50px;
+	height: 35px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	background-color: #5CC967;
+	cursor: pointer;
+	font-family: Syne;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	border-image-source: linear-gradient(180deg, #2643c9 0%, rgba(196, 38, 142, 0) 100%);
+}

@@ -1,0 +1,53 @@
+// MenuBar.scss
+.menu-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0% 5%;
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+
+
+	div:nth-child(odd) {
+		width: 70px;
+	}
+}
+
+.btn_login {
+	width: 107px;
+	height: 60px;
+	padding: 0px 30px;
+	border-radius: 10px;
+	gap: 12px;
+	color: black;
+	border: none;
+	cursor: pointer;
+}
+
+.btn_signup {
+	width: 167px;
+	height: 60px;
+	padding: 0px 50px;
+	gap: 12px;
+	background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+	color: aliceblue;
+	cursor: pointer;
+
+}
+
+.btn_eff {
+	background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+	border: none;
+	box-shadow: 0px 6px 18px 0px #F2A69C;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+@media (max-width: 900px) {
+	.button-container {
+		display: none;
+	}
+}
